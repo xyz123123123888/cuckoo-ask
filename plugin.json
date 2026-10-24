@@ -1,0 +1,8 @@
+{
+  "id": "cuckoo-ask",
+  "name": "提问",
+  "version": "End",
+  "description": "AI 通过问卷向用户提问：捕获 ask 代码块，弹出全屏问卷，答完作为用户消息发回。",
+  "author": "魔汐-INT",
+  "minAppVersion": "0.8.9"
+}

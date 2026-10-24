@@ -1,0 +1,28 @@
+cuckoo-ask
+Copyright 2026 魔汐-INT
+
+This product is licensed under the Apache License, Version 2.0.
+You may obtain a copy of the License at:
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+--------------------------------------------------------------------
+关于上游兼容性
+
+本插件为 Cuckoo Code（https://github.com/wangyongpeng90/cuckoo-code）
+的独立插件。Cuckoo Code 本体采用 GNU General Public License v3.0。
+
+本插件不包含、不复制、不修改、不链接 Cuckoo Code 的源代码，
+仅通过其公开的插件 API（ctx.ui / ctx.agents / window 自定义事件）
+进行交互。依据 Apache License 2.0 对 "Derivative Works" 的定义
+（明确排除 "merely link (or bind by name) to the interfaces of the Work"），
+本插件不构成 Cuckoo Code 的衍生作品，故可独立采用 Apache-2.0 授权。
+
+如需将本插件代码并入 GPLv3 项目分发，Apache-2.0 与 GPLv3 单向兼容，
+该合并分发物将整体受 GPLv3 约束。

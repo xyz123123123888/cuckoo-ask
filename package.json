@@ -1,0 +1,35 @@
+{
+  "name": "cuckoo-ask",
+  "version": "1.0.0",
+  "description": "让 AI 通过问卷卡片向用户提问的 Cuckoo Code 插件。捕获 ask 代码块，弹出可拖动问卷，答完作为用户消息发回。",
+  "keywords": [
+    "cuckoo-plugin",
+    "cuckoo-code",
+    "plugin",
+    "questionnaire",
+    "ask",
+    "ai"
+  ],
+  "license": "Apache-2.0",
+  "author": "魔汐-INT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xyz123123123888/cuckoo-ask.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xyz123123123888/cuckoo-ask/issues"
+  },
+  "homepage": "https://github.com/xyz123123123888/cuckoo-ask#readme",
+  "files": [
+    "plugin.json",
+    "ui/",
+    "rules/",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "cuckoo": {
+    "id": "cuckoo-ask",
+    "minAppVersion": "0.8.11"
+  }
+}
