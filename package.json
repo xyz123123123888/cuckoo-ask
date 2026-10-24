@@ -25,6 +25,7 @@
     "ui/",
     "rules/",
     "README.md",
+    "README.en.md",
     "LICENSE",
     "NOTICE"
   ],

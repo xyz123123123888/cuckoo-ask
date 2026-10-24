@@ -1,5 +1,7 @@
 # cuckoo-ask · 提问
 
+[简体中文](README.md) | [English](README.en.md)
+
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Cuckoo Plugin](https://img.shields.io/badge/Cuckoo-Plugin-4d6bfe)](https://github.com/wangyongpeng90/cuckoo-code)
 [![GitHub](https://img.shields.io/badge/GitHub-cuckoo--ask-181717?logo=github)](https://github.com/xyz123123123888/cuckoo-ask)
@@ -139,6 +141,7 @@ cuckoo-ask/
 │   └── ask.js       # 核心逻辑（捕获、解析、UI、回传）
 ├── LICENSE          # Apache License 2.0
 ├── NOTICE           # 版权与上游兼容性声明
+├── README.en.md     # 英文文档
 ├── .gitignore
 └── README.md
 ```
