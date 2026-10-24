@@ -38,16 +38,27 @@ AI 收到答案，继续执行
 
 ## ask 块格式
 
+**把本轮所有需要确认的问题放进同一个 questions 数组**，用户一次答完，不要分多轮挤牙膏。
+
 ```ask
 {
   "questions": [
     {
       "id": "q1",
-      "text": "问题文本",
+      "text": "第一个问题",
       "multiSelect": false,
       "options": [
         { "label": "选项A", "recommended": true },
         { "label": "选项B" }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "第二个问题（可多选）",
+      "multiSelect": true,
+      "options": [
+        { "label": "选项C" },
+        { "label": "选项D" }
       ]
     }
   ]

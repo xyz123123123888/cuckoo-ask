@@ -1,6 +1,6 @@
 {
   "name": "cuckoo-ask",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "让 AI 通过问卷卡片向用户提问的 Cuckoo Code 插件。捕获 ask 代码块，弹出可拖动问卷，答完作为用户消息发回。",
   "keywords": [
     "cuckoo-plugin",

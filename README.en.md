@@ -38,16 +38,27 @@ AI receives the answers and continues
 
 ## ask block format
 
+**Put every question you need answered this turn into the same questions array** — let the user answer them all at once instead of asking one at a time across multiple turns.
+
 ```ask
 {
   "questions": [
     {
       "id": "q1",
-      "text": "Your question",
+      "text": "First question",
       "multiSelect": false,
       "options": [
         { "label": "Option A", "recommended": true },
         { "label": "Option B" }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "Second question (multi-select)",
+      "multiSelect": true,
+      "options": [
+        { "label": "Option C" },
+        { "label": "Option D" }
       ]
     }
   ]
